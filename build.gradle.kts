@@ -28,6 +28,7 @@ dependencies {
     implementation("ch.qos.logback.contrib:logback-json-classic:0.1.5")
     implementation("ch.qos.logback.contrib:logback-jackson:0.1.5")
     implementation("io.github.microutils:kotlin-logging:2.1.21")
+    implementation("org.yaml:snakeyaml:1.30")
     compileOnly("io.kotlintest:kotlintest-runner-junit5:3.4.2")
     compileOnly("io.mockk:mockk:1.12.4")
     testImplementation("io.kotlintest:kotlintest-runner-junit5:3.4.2")
